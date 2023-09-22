@@ -1,6 +1,8 @@
 # API Key Impact
 When auditing website security, one common weakness is exposed API keys, often in the form of environmental variables in a file with public read access. Whether conducting a sanctioned penetration test or participating in a bug bounty program, it is often necessary to either expand access or prove impact to the business in question. The purpose of this list is to detail examples of types of API credentials and how they can be leveraged to exploit a site.
 
+The list is most useful when viewed fullscreen [here](https://github.com/TargetPackage/api-key-impact/blob/main/README.md).
+
 | Variable              | Private | Example                              | Purpose                                                                                                                      |
 | :--------------------: | :-----: | :----------------------------------: | ---------------------------------------------------------------------------------------------------------------------------- |
 | AMPLITUDE_API_KEY      | N       | a205ed9b06a7baf5a594bdd30293aa80     | The [Amplitude API key](https://www.docs.developers.amplitude.com/guides/amplitude-keys-guide/) is intended to be public, it is used to identify an Amplitude application for analytical purposes. |
